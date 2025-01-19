@@ -1,0 +1,157 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 85%;
+    margin: 0 auto;
+    
+}
+.poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+/* -----------------------------------header styles section start---------------------------------------- */
+
+
+/* navbar styles start */
+
+nav{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.brand_title{
+    color: rgb(58, 58, 58);
+    font-weight: 800;
+    font-size: 2rem;
+}
+.nav_items{
+    display: flex;
+    
+
+}
+.nav_items li{
+    list-style: none;
+}
+.nav_items li a{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-left: 30px;
+    
+    
+}
+
+/* navbar styles end */
+
+
+/* banner styles start */
+.banner_section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 500px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner_title{
+    color: rgb(58, 58, 58);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.banner_discription{
+    color: rgb(58, 58, 58);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 16px;
+}
+.banner_btn{
+    padding: 10px 30px;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    margin-top: 16px;
+}
+
+.img_part{
+    background-image: url("images/Circle\ design.svg");
+    margin-right: 50px;
+    
+}
+
+.banner_img{
+    width: 100%;
+}
+/* banner styles end */
+
+/* -----------------------------------header styles section start---------------------------------------- */
+
+
+/* -----------------------------------main styles section start---------------------------------------- */
+.sponsors_section{
+    max-width: 90%;
+    margin: 30px auto;
+}
+.sponsors_container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+
+/* -----------------------------------main styles section end---------------------------------------- */
+
+
+
+/* -----------------------------------responsive for mobile/small device start---------------------------------- */
+
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner_section{
+        flex-direction: column-reverse;
+        margin-top: 120px;
+    }
+    .nav_items{
+        margin-top: 20px;
+        display: grid;
+        gap: 15px;
+
+    }
+    .img_part{
+        background-position: center center;
+        margin-left: 30px;
+        margin-bottom: 40px;
+        
+        width: 350px;
+        text-align: center;
+    }
+    .content_part{
+        text-align: center;
+        
+    }
+    .sponsors_container{
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+
+
+   
+    
+}
+
+/* -----------------------------------responsive for mobile/small device end---------------------------------- */
