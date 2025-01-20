@@ -162,6 +162,22 @@ nav{
     
 }
 
+/* featured section styles start */
+
+.featured_section{
+    max-width: 80%;
+    /* border: 1px solid black; */
+    margin: 150px auto;
+    
+}
+.featurd_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* featured section styles end */
 
 
 /* -------------------------popular styles section end  ---------------------------- */
@@ -220,9 +236,10 @@ nav{
     }
 
 
-    .popular_container{
+    .popular_container, .featurd_container{
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
+        row-gap: 40px;
     }
     
 }
