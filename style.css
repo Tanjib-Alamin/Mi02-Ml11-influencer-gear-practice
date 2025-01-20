@@ -180,6 +180,30 @@ nav{
 /* featured section styles end */
 
 
+/* footer section styles start */
+
+.footer_section{
+   
+    
+    background: rgb(8, 8, 31);
+    text-align: center;
+    padding: 100px 0;
+}
+.footer_content{
+    /* margin-top: 100px;
+    border: 1px solid white; */
+}
+
+.footer_title{
+    color: rgb(255, 255, 255);
+}
+.footer_p{
+    color: rgb(255, 255, 255);
+}
+
+/* footer section styles end */
+
+
 /* -------------------------popular styles section end  ---------------------------- */
 
 
