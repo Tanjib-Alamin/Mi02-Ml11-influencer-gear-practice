@@ -111,6 +111,74 @@ nav{
 }
 
 
+/* -------------------------popular styles section start---------------------------- */
+
+.popular_section{
+    width: 70%;
+    margin: 80px auto;
+   
+}
+.popular_title{
+    color: rgb(58, 58, 58);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight:600 ;
+    font-size:2rem ;
+}
+
+.box_title{
+    margin-top: 10px;
+    color: rgb(24, 25, 31);
+    font-size: 2rem;
+    font-weight: 500;
+    
+}
+.box_number{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+}
+
+.box_p{
+    margin-top: 10px;
+    color: rgb(120, 120, 133);
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+.popular_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 30px;
+}
+.popular_box{
+    
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(10, 10, 10, 0.3);
+    
+}
+
+
+
+/* -------------------------popular styles section end  ---------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------popular styles section end---------------------------- */
+
 /* -----------------------------------main styles section end---------------------------------------- */
 
 
@@ -132,6 +200,8 @@ nav{
         gap: 15px;
 
     }
+
+   
     .img_part{
         background-position: center center;
         margin-left: 30px;
@@ -150,7 +220,10 @@ nav{
     }
 
 
-   
+    .popular_container{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
     
 }
 
